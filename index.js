@@ -10,6 +10,17 @@ app.get("/", function(req, res){
     res.render("page");
 });
 
+
+app.get('/shasha', function(request, response) {
+    //response.send("<h2><center>Welcome to Node JS app</h2>");
+    response.set("Content-Type","text/html");
+    response.write("<h2><center><u>Node JS  Application </u></center></h2>");
+	
+    response.write("<h2><center>Welcome to  Mithun Technologies. Please Contact +91-9980923226 for more information or send an email to devopstrainingblr@gmail.com <center></h2>" );
+    response.end();
+    
+  })
+
 // use our puclic/chat.js file as listener
 app.use(express.static(__dirname + '/public'));
 // Set port
