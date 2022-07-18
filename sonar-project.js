@@ -5,7 +5,7 @@ sonarqubeScanner({
        options : {
 	    'sonar.projectDescription': 'This is a Node JS application',
 	    'sonar.projectName': 'Realtime Chat',
-	    'sonar.projectKey':'NodeJsMithunTechnologies',
+	    'sonar.projectKey':'realTimeChatNodeJs',
 	    'sonar.login': 'c1feb8f6c439483f4bffa0dd285fe53aa57be1b9',
 	    //'sonar.login': 'admin',
 	    //'sonar.password': 'admin',
